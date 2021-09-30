@@ -1,0 +1,87 @@
+
+
+header{
+    background: linear-gradient(91deg, rgba(221, 129, 19, 0.42) 24%, #fff 100%);
+    height: 100px;
+}
+
+
+#Main-container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+.personal{
+    background: linear-gradient(91deg, rgba(60, 121, 174, 0.42) 24%, #fff 100%);
+    width: 25%;
+    height: auto;
+    text-align: center;
+    box-shadow: 5px 5px 10px 1px #000;
+}
+
+
+#middle{
+    width: 50%;
+    height: auto;
+    margin-left: 10px;
+    box-shadow: 5px 5px 10px 1px #000;
+    text-align: left;
+    padding-left: 2px;
+    padding-right: 2px;
+    letter-spacing: 1px;
+    line-height: 6;
+
+}
+
+#my{
+    font-size: 30px;
+}
+
+#aside{
+    width: 30%;
+    height: auto;
+    margin-left: 20px;
+    box-shadow: 5px 5px 10px 1px #000;
+    background: linear-gradient(270deg, rgba(60, 121, 174, 0.42) 24%, #fff 100%);
+    text-align: justify;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: 1px;
+    line-height: 1;
+    font-size: x-large;
+    text-indent: 60px;
+    
+
+}
+
+
+.picture{
+    width: 20%;
+    height: 250px;
+    border-radius: 40%;
+    margin-top: 10px;
+    
+}
+
+
+.profile{
+    text-align: center;
+    padding-top: 40px;
+    
+}
+
+td{
+   border: solid 1px #000;
+   border-collapse: collapse;
+   text-align: justify;
+}
+
+table{
+    padding-right: px;
+    
+}
+
