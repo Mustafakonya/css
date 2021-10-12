@@ -1,0 +1,206 @@
+/* General Styles */
+
+*{
+    box-sizing: content-box;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+html, body{
+    height: 600px;
+    width: 720px;
+}
+/* Color */
+
+main{
+    background-color: tan;
+}
+
+.black{
+    background-color: #191210;
+}
+
+#box-left-back, #box-middle-back, #box-right-back{
+    background-color: #eca03d;
+}
+
+#box-middle-middle{
+    background-color: #191210;
+}
+
+.yellow{
+    background-color: #f7ec7d;
+}
+
+#left{
+    background-color: #62306d;
+}
+
+#middle{
+    background-color: #e3516e;
+}
+
+#box-left-up{
+    background-color: #51b5a9;
+}
+
+#box-right-up{
+    background-color: #fade8b;
+}
+
+#box-left-down{
+    background-color: #f7f3d7;
+}
+
+#right, .black-circle{
+    background-color: black;
+}
+
+#box-middle-front{
+    background-color: #84271c;   
+}
+
+/* Layout */
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outbox{
+    width: 270px;
+    height: 180px;
+    border: tomato 1px solid;
+    margin: 2px;
+}
+
+.outbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box-1{
+    border-radius: 0% 0% 50% 50%;
+    margin-top: 60px;
+}
+
+#box-2{
+    border-radius: 50% 50% 0% 0%;
+    margin-bottom: 60px;
+}
+
+#box-3{
+    border-radius: 0% 0% 50% 50%;
+    margin-top: 60px;
+}
+
+.yellow{
+    width: 60px;
+    height: 60px;
+}
+
+.square{
+    height: 60px;
+    width: 60px;
+}
+
+#box-left-up{
+    margin-top: -55px;
+    margin-right: 20px;
+    border-radius: 100% 0% 0% 0%;
+}
+
+#box-right-up{
+    margin-top: -55px;
+    margin-left: 0px;
+    border-radius: 0% 100% 0% 0%;
+}
+
+#box-left-down{
+    margin-left: -80px;
+    margin-bottom: -65px;
+    border-radius: 0% 0% 0% 100%;
+}
+
+#box-left-back{
+    margin-right: -10px;
+    width: 70px;
+    height: 70px;
+}
+
+#box-middle-back{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+#box-right-back{
+
+    margin-left: 1px;
+    width: 70px;
+    height: 70px;
+}
+
+#box-middle-middle{
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    margin-left: -86px;
+}
+
+#box-middle-front{
+    position: absolute;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    margin-left: 1px;
+}
+
+.black-circle{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+}
+
+#left-black-circle{
+    margin: 0px -72px;
+}
+
+#right-black-circle{
+    margin: 0px 73px;
+}
+
+.radius, .black-circle{
+    border-radius: 100%;
+}
+
+.black-trapezoid{
+    position: absolute;
+    width: 50px;
+    height: 35px;
+}
+
+ #trapezoid-right{
+    width: 60px; 
+   height: 40px;
+   background: rgb(0, 0, 0);
+   margin: 20px 79px;
+   -webkit-transform: skew(-15deg); 
+   -moz-transform: skew(-15deg); 
+   -o-transform: skew(-15deg);
+   transform: skew(-15deg);
+ } 
+
+ #trapezoid-left{
+    width: 60px; 
+   height: 40px;
+   background: rgb(0, 0, 0);
+   margin: -20px -74px;
+   -webkit-transform: skew(-22deg); 
+   -moz-transform: skew(-22deg); 
+   -o-transform: skew(-22deg);
+   transform: skew(-22deg);
+ } 
