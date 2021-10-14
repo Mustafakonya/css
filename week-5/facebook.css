@@ -1,0 +1,166 @@
+/* General Styles */
+
+/* *{
+    border: blueviolet 1px solid;
+} */
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    color: #4267B2;
+    height: 80vh;
+    margin: 0em;
+}
+
+@media  screen and  (max-width: 500px){
+    p{
+        font-size: 10px;
+    }
+}
+
+footer{
+    height: 20vh;
+}
+
+form{
+    height: 13em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 2%;
+}
+
+input{
+    display: flex;
+    justify-content: center;
+    margin: 1em 1em;
+    padding: .4em 1em;
+    border-radius: 2%;
+    text-decoration: none;
+}
+
+input:active{
+    border: #4267B2 1px solid;
+    color: rgb(236, 236, 236);
+}
+
+.left-side, .right-side{
+    margin: 30px;
+}
+
+#anmelden, #password-vergessen{
+    display: flex;
+    justify-content: center;
+    margin: 0em 1em;
+    padding: .4em 0em;
+    border-radius: 2%;
+    text-decoration: none;
+}
+
+#new-account{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    margin: 0em 5em;
+    padding: .4em 0em;
+    border-radius: 2%;
+    text-decoration: none;
+}
+
+#password-vergessen{
+    font-size: 3px;
+}
+
+#footer-section-one{
+    display: flex;
+    flex-direction: row;
+}
+
+section div p{
+    font-size: 16px;
+}
+
+
+/* Color */
+form{
+    background-color: rgb(255, 255, 255);
+    box-shadow: .5px .5px 2px 1px rgb(144, 144, 144) ;
+}
+
+p{
+    color: black;
+}
+
+#anmelden{
+    color: white;
+    background-color: #4267B2;
+}
+
+#new-account{
+    color: white;
+    background-color: rgb(32, 182, 32);
+}
+
+#password-vergessen{
+    color: #4267B2;
+    font-size: 10px;
+}
+
+hr {
+    width: 90%;
+    border-style: solid;
+    color: rgb(219, 219, 219);
+    border-width: 1px;
+}
+
+footer section div{
+    margin: 0.1em 2em;
+}
+
+footer section button{
+    margin: 0.5em 1em 0em -2.9em;
+}
+
+footer section p{
+    font-size: 10px;
+    color: rgb(187, 187, 187);
+    margin: 2em 1em 0em 4.1em;
+}
+
+footer section div a{
+    text-decoration: none;
+    font-size: 10px;
+    color: rgb(187, 187, 187);
+    margin: 0.2em 1em;
+
+}
+
+
+
+/* Typography */
+h1{
+    font-size: 2em;
+    font-family: sans-serif, Verdana, Verdana, Geneva, Tahoma ;
+}
+
+p{
+    font-size: 20px;
+    font-family: sans-serif, Verdana, Verdana, Geneva, Tahoma ;
+}
+
+
+
+/* Layout */
+
+
+
+
+
+
+/* section > form, div{
+    
+    background-color: burlywood;
+} */
+
